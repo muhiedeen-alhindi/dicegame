@@ -14,11 +14,11 @@ let img2_src= "resources/dice"+second_randomnumber+".png"
  dice2.setAttribute("src",img2_src)
 
  if(first_randomnumber>second_randomnumber){
-    score.innerHTML="player1 win"
+    score.innerHTML="Player 1 wins!"
  }
   else if (first_randomnumber<second_randomnumber){
-    score.innerHTML="player2 win"
+    score.innerHTML="Player 2 wins!"
  }
  else{
-    score.innerHTML="even " 
+    score.innerHTML="Draw!" 
  }
