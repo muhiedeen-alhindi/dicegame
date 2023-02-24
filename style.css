@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    background-color: aqua;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap:50px;
+    background-color: aqua;
+}  
+ 
+h1{
+    text-align: center;
+}
