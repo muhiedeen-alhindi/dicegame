@@ -12,3 +12,13 @@ let img2_src= "resources/dice"+second_randomnumber+".png"
   
  dice1.setAttribute("src",img1_src)
  dice2.setAttribute("src",img2_src)
+
+ if(first_randomnumber>second_randomnumber){
+    score.innerHTML="player1 win"
+ }
+  else if (first_randomnumber<second_randomnumber){
+    score.innerHTML="player2 win"
+ }
+ else{
+    score.innerHTML="even " 
+ }
